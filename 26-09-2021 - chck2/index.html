@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<title>Formulário de entrada</title>
+	</head>
+
+	<body>
+		<!--SP-->
+
+		<header>
+			<h1>Formulário de inscrição para entrada na cidade.</h1>
+		</header>
+		<div class="forms">
+			<main>
+				<form action="#" method="POST">
+					<div class="dados">
+						<fieldset>
+							<legend>Dados Pessoias</legend>
+							<label id="teste" for="nome">Nome</label>
+							<input type="name" id="nome" maxlength="100" placeholder="Nome completo" autofocus required />
+
+							<label for="email">Email</label>
+							<input type="email" id="email" placeholder="exemplo@gmail.com" required />
+
+							<label for="telefone">Telefone</label>
+							<input
+								type="tel"
+								name="telefone"
+								id="telefone"
+								placeholder="ex: (xx) n nnnn-nnnn"
+								maxlength="11"
+								required
+							/>
+
+							<label for="data">Data de Nascimento</label>
+							<input type="date" name="data" id="data" required />
+						</fieldset>
+					</div>
+
+					<div class="radio">
+						<fieldset>
+							<legend>Idade</legend>
+							<input type="radio" name="idade" value="menor" id="menorIdade" required />
+							<label for="menorIdade">Maior de idade</label>
+							<input type="radio" name="idade" value="maior" id="maiorIdade" checked required />
+							<label for="maiorIdade">Menor de idade</label>
+						</fieldset>
+					</div>
+
+					<div class="radio">
+						<fieldset>
+							<legend>Locais de Interesse</legend>
+							<input type="radio" name="interesse" id="ponte" value="ponte" required />
+							<label for="ponte">Ponte dos Ingleses e o Espigão de Iracema</label>
+							<input type="radio" name="interesse" id="dragao" value="dragao" checked required />
+							<label for="dragao">Centro Dragão do Mar de Arte e Cultura</label>
+							<input type="radio" name="interesse" id="feira" value="feira" required />
+							<label for="feira">Feira de Artesanato</label>
+							<input type="radio" name="interesse" id="iracema" value="iracema" required />
+							<label for="iracema">Estátua de Iracema</label>
+						</fieldset>
+					</div>
+
+					<div class="interesses">
+						<fieldset>
+							<legend>Interesses</legend>
+							<input type="checkbox" name="interesses" id="turismo" />
+							<label for="turismo">Turismo</label>
+
+							<input type="checkbox" name="interesses" id="residencia" />
+							<label for="residencia">Residência</label>
+
+							<input type="checkbox" name="interesses" id="estudos" />
+							<label for="estudos">Estudos</label>
+						</fieldset>
+					</div>
+					<button type="submit">Enviar</button>
+					<button type="reset">Resetar</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
