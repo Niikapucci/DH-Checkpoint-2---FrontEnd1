@@ -4,5 +4,5 @@ Trabalho avaliativo da matéria Front End 1 do Professor Renan. Integrantes: Nik
 **Este projeto é voltado apenas para fins educacionais!**
 
 Caso queira entrar em contato, estamos no GitHub:
-Devs: Nikolas Capucci(@Niikapucci) e Vitor Mateus
+Devs: Nikolas Capucci(https://github.com/Niikapucci) e Vitor Mateus
 Prof: Renan Oliveira (https://github.com/lmaoclost)
